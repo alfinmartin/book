@@ -1,0 +1,25 @@
+.img-container {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img-container>a:hover,
+.img-container>a:hover {
+    width: 90px;
+    color: #ff5346;
+}
+
+.img-container>a:hover img {
+    opacity: .6;
+    -webkit-transform: scale(1.1, 1.1) rotate(1deg);
+    transform: scale(1.1, 1.1) rotate(1deg);
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+
+.img-container img {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
